@@ -6,15 +6,15 @@
 #include "driver/i2s_std.h"
 #include "esp_codec_dev.h"
 
-#define BSP_I2C_SCL           (GPIO_NUM_6)
-#define BSP_I2C_SDA           (GPIO_NUM_5)
+#define BSP_I2C_SCL           (GPIO_NUM_18)
+#define BSP_I2C_SDA           (GPIO_NUM_8)
 
-#define BSP_I2S_SCLK          (GPIO_NUM_48)
-#define BSP_I2S_MCLK          (GPIO_NUM_14)
-#define BSP_I2S_LCLK          (GPIO_NUM_21)
-#define BSP_I2S_DOUT          (GPIO_NUM_45) // To Codec ES8311
-#define BSP_I2S_DSIN          (GPIO_NUM_47) // From ADC ES7210
-#define BSP_POWER_AMP_IO      (GPIO_NUM_38)
+#define BSP_I2S_SCLK          (GPIO_NUM_17)
+#define BSP_I2S_MCLK          (GPIO_NUM_2)
+#define BSP_I2S_LCLK          (GPIO_NUM_47)
+#define BSP_I2S_DOUT          (GPIO_NUM_15) // To Codec ES8311
+#define BSP_I2S_DSIN          (GPIO_NUM_16) // From ADC ES7210
+#define BSP_POWER_AMP_IO      (GPIO_NUM_46)
 #define BSP_MUTE_STATUS       (GPIO_NUM_1)
 
 #define BSP_I2C_NUM           CONFIG_BSP_I2C_NUM
